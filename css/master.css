@@ -1,0 +1,87 @@
+body#gallery {
+	background: #FFF4DA;
+	font-family: Verdana;
+}
+
+img.fixed_size	{
+	height: 200px;
+	width: 200px;
+}
+
+img.scale	{
+	height: 50%;
+	width: 50%;
+}
+
+img.height_only	{
+	height: 300px;
+}
+
+img.on_right	{
+	height: 200px;
+	width: 200px;
+}
+
+img.with_border	{
+	background: #fff;
+  border: 1px solid #c6c9cc;
+  float: right;
+  margin: 0px 0 0 20px;
+  padding: 10px;
+  height: 150px;
+}
+
+.clear_float {
+	clear: both;
+}
+
+figure {
+	margin-bottom: 50px;
+}
+
+figure.with_border {
+  float: right;
+  margin-left: 20px;
+  padding: 4px;
+}
+
+figcaption {
+	font-size: 90%;
+	font-style: italic;
+}
+
+figcaption.with_border {
+	margin-left: 30px;
+}
+
+.naughty {
+   border-top: 1px solid #877e78;
+   background: #9c1a36;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9c1313), to(#9c1a36));
+   background: -webkit-linear-gradient(top, #9c1313, #9c1a36);
+   background: -moz-linear-gradient(top, #9c1313, #9c1a36);
+   background: -ms-linear-gradient(top, #9c1313, #9c1a36);
+   background: -o-linear-gradient(top, #9c1313, #9c1a36);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.naughty:hover {
+   border-top-color: #f7030f;
+   background: #f7030f;
+   color: #ccc;
+   }
+.naughty:active {
+   border-top-color: #f50857;
+   background: #f50857;
+   }

